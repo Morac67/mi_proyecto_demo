@@ -5,3 +5,10 @@ git pull origin main
 git add . 
 git commit -m "Actualizacion del archivo README"
 git push origin main
+git branch pruebas
+git add.
+git commit -m "Cambio en rama pruebas"
+git checkout pruebas
+git checkout main 
+git merge pruebas
+git push origin main
